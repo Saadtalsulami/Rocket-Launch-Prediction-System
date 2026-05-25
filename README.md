@@ -54,7 +54,7 @@ The implementation demonstrates how machine learning techniques can support aero
 
 The dataset preprocessing pipeline included:
 
-- Loading the cleaned rocket launch dataset
+- Loading the rocket launch dataset
 - Removing irrelevant columns
 - Handling missing values
 - Selecting operational launch features
@@ -82,7 +82,7 @@ Exploratory analysis was performed to better understand:
 - Feature relationships
 - Class imbalance patterns
 
-The analysis phase included statistical summaries and data visualization techniques.
+The analysis phase included statistical summaries and visualization techniques.
 
 ---
 
@@ -222,12 +222,63 @@ Potential real-world applications include:
 # Project Structure
 
 ```bash
-rocket-launch-prediction-system/
-│
-├── datasets/
-├── notebooks/
-├── outputs/
-├── images/
+Rocket-Launch-Prediction-System-main/
 │
 ├── README.md
-└── requirements.txt
+│
+└── Rocket Launches Classification/
+    ├── README.md
+    ├── rocket_launches.csv
+    ├── rocket_launches_cleand.csv
+    └── rocket_launches_code.ipynb
+```
+
+---
+
+# Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# Run the Project
+
+```bash
+jupyter notebook
+```
+
+Open the notebook and execute the machine learning workflow.
+
+---
+
+# Research & Future Expansion
+
+Future development directions include:
+
+- Deep learning-based launch prediction
+- Real-time aerospace analytics
+- Time-series launch forecasting
+- Advanced ensemble learning techniques
+- Interactive prediction dashboards
+- Cloud-based ML deployment
+- Automated model optimization
+
+---
+
+# Potential Research Extensions
+
+This project can be further extended into advanced research areas such as:
+
+- Aerospace AI systems
+- Predictive risk modeling
+- Intelligent mission forecasting
+- AI-powered operational analytics
+- Large-scale predictive analytics systems
+
+---
+
+# License
+
+Educational / Research Use
